@@ -244,13 +244,21 @@ b{
     padding-top: 3px;
 }
 
-#info-box-full img{
-    width: 100%;
-    height: 100%;
-}
-
 #info-box-full h3{
     text-align: center;
+}
+
+.logo{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.logo img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
 }
 
 h1{
